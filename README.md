@@ -1,5 +1,4 @@
-# GoatFramework
-Documentación del GoatFramework
+# Documentación del GoatFramework
 ===============================
 
 Introducción
