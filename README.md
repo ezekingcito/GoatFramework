@@ -27,7 +27,7 @@ Instalación
 1.  **Clonar el Repositorio**: Clona el repositorio desde GitHub y navega al directorio del proyecto:
 
     ```plaintext
-    git clone https://github.com/tu-usuario/GoatFramework.git
+    git clone https://github.com/ezekingcito/GoatFramework
     cd GoatFramework
     ```
 
