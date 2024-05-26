@@ -57,19 +57,19 @@ El GoatFramework incluye una CLI para facilitar la generación de componentes de
 -   **Crear un Modelo**:
 
     ```plaintext
-    node goat model NombreDelModelo
+    node goat model {sub-carpeta/raiz} NombreDelModelo
     ```
 
 -   **Crear una Vista**:
 
     ```plaintext
-    node goat view nombreDeLaVista
+    node goat view {sub-carpeta/raiz} nombreDeLaVista
     ```
 
 -   **Crear un Controlador**:
 
     ```plaintext
-    node goat controller NombreDelControlador
+    node goat controller {sub-carpeta/raiz} NombreDelControlador
     ```
 
 ### Iniciar el Servidor
