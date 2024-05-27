@@ -16,11 +16,19 @@ Características Principales
 
 Instalación
 -----------
+Para el correcto funcionamiento del GoatFramework, es necesario configurar un Virtual Host en tu servidor web. Un Virtual Host permite dirigir las solicitudes HTTP a la carpeta raíz de tu proyecto, mejorando la organización y facilitando el desarrollo.
 
 ### Requisitos Previos
 
 -   Node.js (versión 12 o superior)
 -   NPM (gestor de paquetes de Node.js)
+-   Composer (versión 2.7.6 o superior)
+-   PHP (versión 8.3.7 o superior)
+-   Virtual Host (Para el proyecto)
+
+Instalación
+-----------
+Configuración del Virtual Host
 
 ### Pasos de Instalación
 
@@ -31,13 +39,19 @@ Instalación
     cd GoatFramework
     ```
 
-2.  **Instalar las Dependencias**: Ejecuta el siguiente comando para instalar las dependencias del proyecto:
+2.  **Instalar las Dependencias**: Ejecuta el siguiente comando para instalar las dependencias del proyecto con npm:
 
     ```plaintext
     npm install
     ```
 
-3.  **Configurar el Archivo .env**: Configura tu archivo `.env` para la conexión a la base de datos:
+3.  **Instalar las Dependencias**: Ejecuta el siguiente comando para instalar las dependencias del proyecto con composer:
+
+    ```plaintext
+    composer install
+    ```
+
+4.  **Configurar el Archivo .env**: Configura tu archivo `.env` para la conexión a la base de datos:
 
     ```plaintext
     HOST = "localhost"
