@@ -27,7 +27,7 @@ Configuración del Virtual Host
 Para el correcto funcionamiento del GoatFramework, es necesario configurar un Virtual Host en tu servidor web. Un Virtual Host permite dirigir las solicitudes HTTP a la carpeta raíz de tu proyecto, mejorando la organización y facilitando el desarrollo.
 
 ### Modificar el nombre del server por el nombre de tu Host Virtual
-Modificar el archivo **/app/config/Config.php** y solo modificar la siguiente línea, agregando **http://host-virtual-name/**
+Modificar el archivo **/app/config/Config.php** y solo modificar la siguiente línea, cambiando **host-virtual-name** por el nombre que le asignaste a tu host virtual
 ```
 public const SERVER = "http://host-virtual-name/";
 ```
