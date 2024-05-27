@@ -14,7 +14,7 @@ Características Principales
 -   **Routing Simplificado**: Manejo de rutas de forma intuitiva.
 -   **Basado en Node.js**: Aprovecha la flexibilidad y rendimiento de Node.js.
 
-Instalación
+## Configuración del Virtual Host
 -----------
 Para el correcto funcionamiento del GoatFramework, es necesario configurar un Virtual Host en tu servidor web. Un Virtual Host permite dirigir las solicitudes HTTP a la carpeta raíz de tu proyecto, mejorando la organización y facilitando el desarrollo.
 
