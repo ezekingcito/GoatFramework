@@ -8,7 +8,7 @@ use controller\Usuarios;
 
 class Config
 {
-    public const SERVER = "http://back.local/";
+    public const SERVER = "http://host-virtual-name/";
     public const DEP_IMG = self::SERVER . "public/img/";
     public const DEP_CSS = self::SERVER . "public/css/";
     public const DEP_JS = self::SERVER . "public/js/";
