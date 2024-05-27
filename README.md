@@ -16,7 +16,7 @@ Características Principales
 
 ### Requisitos Previos
 
--   Node.js (versión 12 o superior)
+-   Node.js (versión 20.12.2 o superior)
 -   NPM (gestor de paquetes de Node.js)
 -   Composer (versión 2.7.6 o superior)
 -   PHP (versión 8.3.7 o superior)
