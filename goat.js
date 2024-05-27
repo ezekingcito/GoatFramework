@@ -4,7 +4,7 @@ import path from "path";
 class Goat {
     constructor() {
         this.tipo_archivo = {
-            "controller": nombreClase => `<?php\n\nnamespace controller;\n\nuse Config\\View;\n\nclass ${nombreClase} extends View\n{\n    public function index()\n    {\n        echo "HolaMundo";\n    }\n}\n\n$${nombreClase.toLowerCase()} = new ${nombreClase}();`,
+            "controller": nombreClase => `<?php\n\nnamespace controller;\n\nrequire_once realpath('./vendor/autoload.php');\n\nuse config\\View;\n\nclass ${nombreClase} extends View\n{\n    public function index()\n    {\n        echo "HolaMundo";\n    }\n}\n\n$controlador = new ${nombreClase}();`,
             "model": nombreClase => `<?php\n\nnamespace model;\n\nuse config\\ORM;\n\nclass ${nombreClase} extends ORM\n{\n    protected $tabla = '';\n    protected $id_tabla = '';\n}`,
             "view": () => `<div class="container">\n\t<div class="row">\n\t\t<div class="col">\n\t\t\t<!-- Hola  -->\n\t\t</div>\n\t</div>\n</div>`    
         };
