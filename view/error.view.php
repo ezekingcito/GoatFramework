@@ -13,7 +13,7 @@ $config = new Config();
             <p class="lead">
                 La página que estas buscando parece que no esta disponible
             </p>
-            <a href="<?= $config->redireccion('/'); ?>" class="btn btn-primary">Home</a>
+            <a href="<?= $config->redireccion('welcome'); ?>" class="btn btn-primary">Home</a>
         </div>
     </div>
 </body>
