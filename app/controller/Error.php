@@ -6,12 +6,12 @@ require_once realpath('./vendor/autoload.php');
 
 use config\View;
 
-class Test extends View
+class Error extends View
 {
     public function index()
     {
-        echo "HolaMundo";
+        return parent::vista('error');
     }
 }
 
-$controlador = new Test();
+$controlador = new Error();
